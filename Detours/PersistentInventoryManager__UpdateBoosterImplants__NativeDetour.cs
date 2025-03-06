@@ -33,6 +33,11 @@ namespace Hikaria.BoosterTweaker.Detours
                 return;
             }
             Original(instancePtr, playerData, methodInfo);
+            if (Features.PerfectBooster.Settings.EnablePerfectBooster)
+            {
+                Features.PerfectBooster.ApplyPerfectBoosterImplants();
+                return;
+            }
         }
     }
 }

@@ -248,51 +248,12 @@ public class PerfectBooster : Feature
         }
     }
 
-    //[ArchivePatch(typeof(PersistentInventoryManager), nameof(PersistentInventoryManager.UpdateBoosterImplants))]
-    private class PersistentInventoryManager__UpdateBoosterImplants__Patch
-    {
-        private static bool Prefix(PersistentInventoryManager __instance, ref BoosterImplantPlayerData playerData)
-        {
-            if (Settings.EnableCustomPerfectBooster)
-            {
-                __instance.m_boosterImplantDirtyState = PersistentInventoryManager.BoosterImplantDirtyState.UpToDate;
-                ApplyCustomPerfectBoosterImplants();
-                return false;
-            }
-            return true;
-        }
-    }
-
     [ArchivePatch(typeof(LocalizationManager), nameof(LocalizationManager.Setup))]
     private class LocalizationManager__Setup__Patch
     {
         private static void Postfix()
         {
             CustomPerfectBoosterImplants.Load();
-        }
-    }
-
-
-    [ArchivePatch(typeof(BoosterImplantManager), nameof(BoosterImplantManager.OnActiveBoosterImplantsChanged))]
-    private class BoosterImplantManager__OnActiveBoosterImplantsChanged__Patch
-    {
-        private static void Prefix()
-        {
-            if (!Settings.EnablePerfectBooster || Settings.EnableCustomPerfectBooster) return;
-
-            for (int i = 0; i < PersistentInventoryManager.Current.m_boosterImplantInventory.Categories.Count; i++)
-            {
-                var category = PersistentInventoryManager.Current.m_boosterImplantInventory.Categories[i];
-                var inventory = category.Inventory;
-                for (int j = 0; j < inventory.Count; j++)
-                {
-                    var boosterImplant = inventory[j].Implant;
-                    if (TryGetBoosterImplantTemplate(boosterImplant, out BoosterImplantTemplate template, out var effectGroup, out var conditions, out _, out _))
-                    {
-                        ApplyPerfectBoosterFromTemplate(boosterImplant, effectGroup, conditions);
-                    }
-                }
-            }
         }
     }
 
@@ -352,5 +313,22 @@ public class PerfectBooster : Feature
     public override void OnGameDataInitialized()
     {
         LoadTemplateData();
+    }
+
+    public static void ApplyPerfectBoosterImplants()
+    {
+        for (int i = 0; i < PersistentInventoryManager.Current.m_boosterImplantInventory.Categories.Count; i++)
+        {
+            var category = PersistentInventoryManager.Current.m_boosterImplantInventory.Categories[i];
+            var inventory = category.Inventory;
+            for (int j = 0; j < inventory.Count; j++)
+            {
+                var boosterImplant = inventory[j].Implant;
+                if (TryGetBoosterImplantTemplate(boosterImplant, out _, out var effectGroup, out var conditions, out _, out _))
+                {
+                    ApplyPerfectBoosterFromTemplate(boosterImplant, effectGroup, conditions);
+                }
+            }
+        }
     }
 }
