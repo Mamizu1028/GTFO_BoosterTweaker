@@ -1,0 +1,530 @@
+{
+  "Muted": [
+    {
+      "Name": "火力 - <lowercase>StW-D </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 25,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "火力 - <lowercase>SpW-D </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 25,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "激素 - <lowercase>Me-D </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 4,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "保护 - <lowercase>Mel-R </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 23,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "保护 - <lowercase>Pro-R </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 23,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "保护+ - <lowercase>Mel-R </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 24,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "恢复 - <lowercase>Reg-S </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 18,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "解毒 - <lowercase>Inf-R </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 22,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "生命 - <lowercase>Rev-Q </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 1,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "生命 - <lowercase>Rev-Q </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 1,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>RAm-I </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 13,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>SAm-I </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 13,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>TAm-I </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 13,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 2,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>Reg-C </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 13,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 3,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "纯粹 - <lowercase>Bio-S </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 21,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>Glu-P </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 7,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>SGu-S </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 7,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>SGu-D </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 7,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 2,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>SGu-SR </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 7,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 3,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧- - <lowercase>Fog-F </lowercase>",
+      "Category": "Muted",
+      "TemplateId": 20,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 4,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    }
+  ],
+  "Bold": [
+    {
+      "Name": "火力 - <lowercase>StW-D RQ/16</lowercase>",
+      "Category": "Bold",
+      "TemplateId": 32,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "火力 - <lowercase>SpW-D RQ/16</lowercase>",
+      "Category": "Bold",
+      "TemplateId": 32,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "激素 - <lowercase>Me-D RQ/71</lowercase>",
+      "Category": "Bold",
+      "TemplateId": 31,
+      "TemplateIndex": 1,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 1,
+      "Enabled": true
+    },
+    {
+      "Name": "保护 - <lowercase>Mel-R </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 29,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "保护 - <lowercase>Pro-R </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 29,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "保护+ - <lowercase>Mel-R RQ/16</lowercase>",
+      "Category": "Bold",
+      "TemplateId": 30,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "恢复 - <lowercase>Reg-S RQ/16</lowercase>",
+      "Category": "Bold",
+      "TemplateId": 28,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "解毒 - <lowercase>Inf-R </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 27,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "生命 - <lowercase>Med-X </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 26,
+      "TemplateIndex": 1,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>RAm-I </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 37,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>RAm-I </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 37,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>SAm-I </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 37,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 2,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>SAm-I </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 37,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 3,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "纯粹 - <lowercase>Bio-S RQ/47</lowercase>",
+      "Category": "Bold",
+      "TemplateId": 36,
+      "TemplateIndex": 1,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 1,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>Glu-P </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 33,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>Glu-P </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 33,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>Trp-D </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 33,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 13,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>SGu-S </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 33,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 3,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>SGu-S </lowercase>",
+      "Category": "Bold",
+      "TemplateId": 33,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 4,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    }
+  ],
+  "Aggressive": [
+    {
+      "Name": "激素 - <lowercase>Me-D RQ/71</lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 43,
+      "TemplateIndex": 1,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 1,
+      "Enabled": true
+    },
+    {
+      "Name": "威势 - <lowercase>StW-D RQ/72</lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 44,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "威势 - <lowercase>SpW-D RQ/72</lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 44,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "保护 - <lowercase>Mel-R RQ/16</lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 41,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "保护 - <lowercase>Pro-R RQ/16</lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 41,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "保护+ - <lowercase>Mel-R RQ/16</lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 42,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "恢复 - <lowercase>Reg-S RQ/46</lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 40,
+      "TemplateIndex": 1,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 1,
+      "Enabled": true
+    },
+    {
+      "Name": "解毒 - <lowercase>Inf-R </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 39,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "生命 - <lowercase>Med-X </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 38,
+      "TemplateIndex": 1,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>Reg-C </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 49,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 10,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>RAm-I </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 49,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "充足 - <lowercase>RAm-I </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 49,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 2,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "纯粹 - <lowercase>Bio-S RQ/47</lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 48,
+      "TemplateIndex": 1,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 1,
+      "Enabled": true
+    },
+    {
+      "Name": "核擎 - <lowercase>Hac-S </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 47,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 0,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "核擎 - <lowercase>Hac-S </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 47,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 1,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "核擎 - <lowercase>Hac-S </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 47,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 2,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>Glu-P </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 45,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 5,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>SGu-S </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 45,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 14,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    },
+    {
+      "Name": "灵巧 - <lowercase>Trp-D </lowercase>",
+      "Category": "Aggressive",
+      "TemplateId": 45,
+      "TemplateIndex": 0,
+      "EffectGroupIndex": 41,
+      "ConditionGroupIndex": 0,
+      "Enabled": true
+    }
+  ]
+}

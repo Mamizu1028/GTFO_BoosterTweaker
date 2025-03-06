@@ -1,0 +1,5241 @@
+{
+  "Muted": [
+    {
+      "BoosterImplantID": 1,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 1.13,
+            "MinValue": 1.1
+          },
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ],
+        "1": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 1.13,
+            "MinValue": 1.1
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 22,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 1.25,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 18,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 23,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.15,
+            "MinValue": 1.05
+          }
+        ],
+        "1": [
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.15,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 24,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 4,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 1.15,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 25,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 52,
+            "Effect": "StandardWeaponDamage",
+            "MaxValue": 1.15,
+            "MinValue": 1.05
+          }
+        ],
+        "1": [
+          {
+            "ID": 53,
+            "Effect": "SpecialWeaponDamage",
+            "MaxValue": 1.15,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 7,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 1.25,
+            "MinValue": 1.15
+          }
+        ],
+        "1": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ],
+        "2": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ],
+        "3": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ],
+        "4": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 20,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "1": [
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "2": [
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 10,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 1.4,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 21,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 41,
+            "Effect": "BioscanSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.13
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 13,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.2,
+            "MinValue": 1.1
+          }
+        ],
+        "1": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.2,
+            "MinValue": 1.1
+          }
+        ],
+        "2": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.2,
+            "MinValue": 1.1
+          }
+        ],
+        "3": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 1.25,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 1,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 1.13,
+            "MinValue": 1.1
+          },
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ],
+        "1": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 1.13,
+            "MinValue": 1.1
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 22,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 1.25,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 18,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 26,
+            "Condition": "IsWieldingResourcePack"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 23,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ],
+        "1": [
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 29,
+            "Condition": "HasLowHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 24,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 4,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 29,
+            "Condition": "HasLowHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 25,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 52,
+            "Effect": "StandardWeaponDamage",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ],
+        "1": [
+          {
+            "ID": 53,
+            "Effect": "SpecialWeaponDamage",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ],
+        "2": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 7,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 1.25,
+            "MinValue": 1.15
+          }
+        ],
+        "1": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ],
+        "2": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ],
+        "3": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ],
+        "4": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 20,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "1": [
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "2": [
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 10,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 1.4,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 35,
+            "Effect": "ComputerProcessingSpeed",
+            "MaxValue": 1.1,
+            "MinValue": 1.05
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 21,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 41,
+            "Effect": "BioscanSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.13
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ],
+        "1": [
+          {
+            "ID": 27,
+            "Condition": "IsWieldingHackingTool"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 13,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Muted",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.2,
+            "MinValue": 1.1
+          }
+        ],
+        "1": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.2,
+            "MinValue": 1.1
+          }
+        ],
+        "2": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.2,
+            "MinValue": 1.1
+          }
+        ],
+        "3": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 1.25,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    }
+  ],
+  "Bold": [
+    {
+      "BoosterImplantID": 26,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "1": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 27,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 28,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 2.0,
+            "MinValue": 1.6
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 29,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ],
+        "1": [
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 30,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.15,
+            "MinValue": 1.1
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 30,
+            "Condition": "HasHighHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 31,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 30,
+            "Condition": "HasHighHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 32,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 52,
+            "Effect": "StandardWeaponDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ],
+        "1": [
+          {
+            "ID": 53,
+            "Effect": "SpecialWeaponDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 10,
+            "Condition": "IsCloseToEnemy"
+          }
+        ],
+        "2": [
+          {
+            "ID": 11,
+            "Condition": "IsFarAwayFromEnemy"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 33,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "1": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "2": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "3": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "4": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "5": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "6": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "7": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "8": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "9": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "10": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "11": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "12": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 1.55,
+            "MinValue": 1.45
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "13": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 1.55,
+            "MinValue": 1.45
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "14": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 1.55,
+            "MinValue": 1.45
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 35,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.6
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 36,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 41,
+            "Effect": "BioscanSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.13
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 37,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "1": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.83,
+            "MinValue": 0.71
+          }
+        ],
+        "2": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "3": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.83,
+            "MinValue": 0.71
+          }
+        ],
+        "4": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "5": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.83,
+            "MinValue": 0.71
+          }
+        ],
+        "6": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "7": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.83,
+            "MinValue": 0.71
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 26,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 27,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 28,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 2.0,
+            "MinValue": 1.6
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 26,
+            "Condition": "IsWieldingResourcePack"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 29,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ],
+        "1": [
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 29,
+            "Condition": "HasLowHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 30,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 31,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 29,
+            "Condition": "HasLowHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 32,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 52,
+            "Effect": "StandardWeaponDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ],
+        "1": [
+          {
+            "ID": 53,
+            "Effect": "SpecialWeaponDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ],
+        "2": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 33,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "1": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "2": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "3": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "4": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "5": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "6": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "7": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "8": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.2,
+            "MinValue": 1.15
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "9": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "10": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "11": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "12": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 1.55,
+            "MinValue": 1.45
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          }
+        ],
+        "13": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 1.55,
+            "MinValue": 1.45
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          }
+        ],
+        "14": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 1.55,
+            "MinValue": 1.45
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 35,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 1.8,
+            "MinValue": 1.6
+          },
+          {
+            "ID": 35,
+            "Effect": "ComputerProcessingSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.12
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 36,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 41,
+            "Effect": "BioscanSpeed",
+            "MaxValue": 1.18,
+            "MinValue": 1.13
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ],
+        "1": [
+          {
+            "ID": 27,
+            "Condition": "IsWieldingHackingTool"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 37,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Bold",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "1": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.83,
+            "MinValue": 0.71
+          }
+        ],
+        "2": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "3": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.83,
+            "MinValue": 0.71
+          }
+        ],
+        "4": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "5": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.35,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.83,
+            "MinValue": 0.71
+          }
+        ],
+        "6": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "7": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 1.6,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.83,
+            "MinValue": 0.71
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    }
+  ],
+  "Aggressive": [
+    {
+      "BoosterImplantID": 38,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          },
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          }
+        ],
+        "1": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          }
+        ],
+        "2": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          },
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          }
+        ],
+        "3": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          }
+        ],
+        "4": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          },
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          }
+        ],
+        "5": [
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 39,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 40,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 2.5,
+            "MinValue": 2.2
+          },
+          {
+            "ID": 41,
+            "Effect": "BioscanSpeed",
+            "MaxValue": 0.95,
+            "MinValue": 0.9
+          }
+        ],
+        "1": [
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 2.5,
+            "MinValue": 2.2
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.95,
+            "MinValue": 0.85
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 43,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 1.6,
+            "MinValue": 1.5
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.9,
+            "MinValue": 0.83
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 30,
+            "Condition": "HasHighHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 41,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          }
+        ],
+        "1": [
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 42,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          }
+        ],
+        "1": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 41,
+            "Effect": "BioscanSpeed",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 30,
+            "Condition": "HasHighHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 44,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 52,
+            "Effect": "StandardWeaponDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          }
+        ],
+        "1": [
+          {
+            "ID": 53,
+            "Effect": "SpecialWeaponDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 30,
+            "Condition": "HasHighHealth"
+          }
+        ],
+        "1": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "2": [
+          {
+            "ID": 10,
+            "Condition": "IsCloseToEnemy"
+          }
+        ],
+        "3": [
+          {
+            "ID": 11,
+            "Condition": "IsFarAwayFromEnemy"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 45,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "1": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "2": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "3": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "4": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "5": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "6": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "7": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "8": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "9": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "10": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "11": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "12": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "13": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "14": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "15": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "16": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "17": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "18": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "19": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "20": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "21": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "22": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "23": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "24": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "25": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "26": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "27": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "28": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "29": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "30": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "31": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "32": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "33": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "34": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "35": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "36": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "37": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "38": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "39": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "40": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "41": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "42": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "43": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "44": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 47,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "1": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "2": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "3": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "4": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "5": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 48,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 41,
+            "Effect": "BioscanSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 30,
+            "Condition": "HasHighHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 49,
+      "TemplateIndex": 0,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "1": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "2": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.62,
+            "MinValue": 0.56
+          }
+        ],
+        "3": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "4": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "5": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.62,
+            "MinValue": 0.56
+          }
+        ],
+        "6": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "7": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "8": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.62,
+            "MinValue": 0.56
+          }
+        ],
+        "9": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "10": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "11": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.62,
+            "MinValue": 0.56
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 38,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          }
+        ],
+        "1": [
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ],
+        "2": [
+          {
+            "ID": 7,
+            "Effect": "HealSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 8,
+            "Effect": "ReviveSpeedSupport",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.8
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 39,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 54,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.95,
+            "MinValue": 0.91
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 40,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 6,
+            "Effect": "RegenerationSpeed",
+            "MaxValue": 2.5,
+            "MinValue": 2.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 26,
+            "Condition": "IsWieldingResourcePack"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 41,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ],
+        "1": [
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ],
+        "1": [
+          {
+            "ID": 29,
+            "Condition": "HasLowHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 42,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 10,
+            "Effect": "MeleeResistance",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 43,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 1.6,
+            "MinValue": 1.5
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.9,
+            "MinValue": 0.83
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 29,
+            "Condition": "HasLowHealth"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 44,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 52,
+            "Effect": "StandardWeaponDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          }
+        ],
+        "1": [
+          {
+            "ID": 53,
+            "Effect": "SpecialWeaponDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 1,
+            "Condition": "IsInBioscan"
+          }
+        ],
+        "1": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ],
+        "2": [
+          {
+            "ID": 5,
+            "Condition": "IsNextToTeammate"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 45,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "1": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "2": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "3": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "4": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "5": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "6": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "7": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "8": [
+          {
+            "ID": 27,
+            "Effect": "GlueEfficiency",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "9": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "10": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "11": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "12": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "13": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "14": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "15": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "16": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "17": [
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "18": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "19": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "20": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "21": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "22": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "23": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "24": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "25": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "26": [
+          {
+            "ID": 29,
+            "Effect": "SentryGunDamage",
+            "MaxValue": 1.3,
+            "MinValue": 1.25
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "27": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "28": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "29": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "30": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "31": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "32": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "33": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "34": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "35": [
+          {
+            "ID": 31,
+            "Effect": "SentryGunShortRangeDamage",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "36": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "37": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "38": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 40,
+            "Effect": "GlowstickEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "39": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "40": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "41": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 39,
+            "Effect": "FogRepellerEffect",
+            "MaxValue": 1.4,
+            "MinValue": 1.35
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "42": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "43": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "44": [
+          {
+            "ID": 32,
+            "Effect": "TripMineDamage",
+            "MaxValue": 2.0,
+            "MinValue": 1.7
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 47,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "1": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "2": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "3": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "4": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "5": [
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 2.2,
+            "MinValue": 2.0
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "6": [
+          {
+            "ID": 35,
+            "Effect": "ComputerProcessingSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "7": [
+          {
+            "ID": 35,
+            "Effect": "ComputerProcessingSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 28,
+            "Effect": "SentryGunSpeed",
+            "MaxValue": 1.4,
+            "MinValue": 1.3
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "8": [
+          {
+            "ID": 35,
+            "Effect": "ComputerProcessingSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "9": [
+          {
+            "ID": 35,
+            "Effect": "ComputerProcessingSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 33,
+            "Effect": "ScannerRechargeSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "10": [
+          {
+            "ID": 35,
+            "Effect": "ComputerProcessingSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 49,
+            "Effect": "MeleeDamage",
+            "MaxValue": 0.83,
+            "MinValue": 0.77
+          }
+        ],
+        "11": [
+          {
+            "ID": 35,
+            "Effect": "ComputerProcessingSpeed",
+            "MaxValue": 1.3,
+            "MinValue": 1.2
+          },
+          {
+            "ID": 50,
+            "Effect": "AmmoSupport",
+            "MaxValue": 1.5,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    },
+    {
+      "BoosterImplantID": 48,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 41,
+            "Effect": "BioscanSpeed",
+            "MaxValue": 1.25,
+            "MinValue": 1.2
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": [
+          {
+            "ID": 7,
+            "Condition": "IsNextToGlowstick"
+          }
+        ],
+        "1": [
+          {
+            "ID": 27,
+            "Condition": "IsWieldingHackingTool"
+          }
+        ]
+      }
+    },
+    {
+      "BoosterImplantID": 49,
+      "TemplateIndex": 1,
+      "ImplantCategory": "Aggressive",
+      "EffectGroups": {
+        "0": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "1": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "2": [
+          {
+            "ID": 36,
+            "Effect": "InitialAmmoStandard",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.62,
+            "MinValue": 0.56
+          }
+        ],
+        "3": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "4": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "5": [
+          {
+            "ID": 37,
+            "Effect": "InitialAmmoSpecial",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.62,
+            "MinValue": 0.56
+          }
+        ],
+        "6": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "7": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "8": [
+          {
+            "ID": 38,
+            "Effect": "InitialAmmoTool",
+            "MaxValue": 1.53,
+            "MinValue": 1.4
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.62,
+            "MinValue": 0.56
+          }
+        ],
+        "9": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 11,
+            "Effect": "ProjectileResistance",
+            "MaxValue": 0.87,
+            "MinValue": 0.83
+          }
+        ],
+        "10": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 12,
+            "Effect": "InfectionResistance",
+            "MaxValue": 0.71,
+            "MinValue": 0.62
+          }
+        ],
+        "11": [
+          {
+            "ID": 5,
+            "Effect": "RegenerationCap",
+            "MaxValue": 2.0,
+            "MinValue": 1.8
+          },
+          {
+            "ID": 34,
+            "Effect": "HackingProficiency",
+            "MaxValue": 0.62,
+            "MinValue": 0.56
+          }
+        ]
+      },
+      "ConditionGroups": {
+        "0": []
+      }
+    }
+  ]
+}
