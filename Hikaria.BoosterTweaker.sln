@@ -16,6 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localizatio
 	ProjectSection(SolutionItems) = preProject
 		Localization\CustomBooster_Localization.json = Localization\CustomBooster_Localization.json
 		Localization\PerfectBooster_Localization.json = Localization\PerfectBooster_Localization.json
+		Localization\_Hikaria.BoosterTweaker_ModuleLocalization.json = Localization\_Hikaria.BoosterTweaker_ModuleLocalization.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{2B5B5DE6-5892-48B0-809F-E62936C12A86}"
