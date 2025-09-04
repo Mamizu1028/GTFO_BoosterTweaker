@@ -1,0 +1,116 @@
+﻿<Project InitialTargets="ValidateGamePath">
+	<Import Project="$(MSBuildThisFileDirectory)\GameFolder.props" Condition="Exists('$(MSBuildThisFileDirectory)\GameFolder.props')" />
+  
+	<Target Name="ValidateGamePath">
+		<Error Text="The GameFolder property must be set to the GTFO game folder." Condition="'$(GameFolder)' == '' or !Exists('$(GameFolder)')" />
+	</Target>
+
+	<PropertyGroup>
+		<BIELibsFolder>$(GameFolder)\BepInEx\core</BIELibsFolder>
+		<CorLibsFolder>$(GameFolder)\dotnet</CorLibsFolder>
+		<InteropLibsFolder>$(GameFolder)\BepInEx\interop</InteropLibsFolder>
+		<PluginsFolder>$(GameFolder)\BepInEx\plugins</PluginsFolder>
+		<CopyBuildToPluginFolder>true</CopyBuildToPluginFolder>
+	</PropertyGroup>
+
+	<!-- BepInEx libs -->
+	<ItemGroup>
+		<Reference Include="$(BIELibsFolder)\BepInEx.*.dll" Private="false" />
+		<Reference Include="$(BIELibsFolder)\0Harmony.dll" Private="false" />
+		<Reference Include="$(BIELibsFolder)\MonoMod.RuntimeDetour.dll" Private="false" />
+		<Reference Include="$(BIELibsFolder)\Il2CppInterop.*.dll" Private="false" />
+	</ItemGroup>
+	
+	<!-- Interop -->
+	<ItemGroup>
+		<Reference Include="$(InteropLibsFolder)/*.dll" Private="false" />
+		<Reference Remove="$(InteropLibsFolder)/netstandard.dll" />
+		<Reference Remove="$(InteropLibsFolder)/Newtonsoft.Json.dll" />
+	</ItemGroup>
+
+	<!-- Other Dependencies -->
+	<ItemGroup>
+		<Reference Include="$(PluginsFolder)/**/GTFO-API.dll" Private="false" />
+		<Reference Include="$(PluginsFolder)/**/Clonesoft.Json.dll" Private="false" />
+		<Reference Include="$(PluginsFolder)/**/TheArchive.Core.dll" Private="false" />
+		<Reference Include="$(PluginsFolder)/**/TheArchive.Essentials.dll" Private="false" />
+		<Reference Include="$(PluginsFolder)/**/Hikaria.Core.dll" Private="false" />
+		<Reference Include="$(PluginsFolder)/**/Hikaria.ItemMarker.dll" Private="false" />
+		<Reference Include="$(PluginsFolder)/**/Hikaria.QC.dll" Private="false" />
+	</ItemGroup>
+
+	<!-- MSBuild Actions -->
+	<Target Name="CopyAssemblyAfterBuild" AfterTargets="Build" Condition="'$(PluginOutputPath)' != ''">
+		<MakeDir Directories="$(PluginOutputPath)" Condition="!Exists('$(PluginOutputPath)')"  />
+		<Message Text="Copying Assembly to Ouput Folder..." />
+		<Copy SourceFiles="$(OutputPath)\$(AssemblyName).dll"
+			  DestinationFiles="$(PluginOutputPath)\$(AssemblyName).dll"/>
+		<Copy SourceFiles="$(OutputPath)\$(AssemblyName).xml"
+			  DestinationFiles="$(PluginOutputPath)\$(AssemblyName).xml" Condition="Exists('$(OutputPath)\$(AssemblyName).xml')"/>
+
+		<Message Text="Assembly has been copied to Ouput Folder!" Importance="High"/>
+	</Target>
+	
+	<Target Name="CopyLocalizationFilesAfterBuild" AfterTargets="CopyAssemblyAfterBuild"  Condition="'$(LocalizationFileDir)' != ''">
+		<Message Text="Copying Localization files to Output Folder ..." />
+		<ItemGroup>
+			<LocalizationFilesToCopy Include="$(LocalizationFileDir)\**\*.*" />
+		</ItemGroup>
+		<Copy
+				SourceFiles="@(LocalizationFilesToCopy)"
+				DestinationFolder="$(PluginOutputPath)\Localization\%(RecursiveDir)"
+				SkipUnchangedFiles="true"
+				OverwriteReadOnlyFiles="true"
+				Retries="3"
+				RetryDelayMilliseconds="300"/>
+		<Message Text="Localization files copied!" Importance="High" />
+	</Target>
+
+	<Target Name="CopyAssetsFilesAfterBuild" AfterTargets="CopyAssemblyAfterBuild"  Condition="'$(AssetsFileDir)' != ''">
+		<Message Text="Copying Assets files to Output Folder ..." />
+		<ItemGroup>
+			<AssetsFilesToCopy Include="$(AssetsFileDir)\**\*.*" />
+		</ItemGroup>
+		<Copy
+				SourceFiles="@(AssetsFilesToCopy)"
+				DestinationFolder="$(PluginOutputPath)\Assets\%(RecursiveDir)"
+				SkipUnchangedFiles="true"
+				OverwriteReadOnlyFiles="true"
+				Retries="3"
+				RetryDelayMilliseconds="300"/>
+		<Message Text="Assets files copied!" Importance="High" />
+	</Target>
+
+	<Target Name="CopyCustomSettingFilesAfterBuild" AfterTargets="CopyAssemblyAfterBuild"  Condition="'$(CustomSettingFileDir)' != ''">
+		<Message Text="Copying Assets files to Output Folder ..." />
+		<ItemGroup>
+			<CustomSettingFilesToCopy Include="$(CustomSettingFileDir)\**\*.*" />
+		</ItemGroup>
+		<Copy
+				SourceFiles="@(CustomSettingFilesToCopy)"
+				DestinationFolder="$(PluginOutputPath)\Settings\%(RecursiveDir)"
+				SkipUnchangedFiles="true"
+				OverwriteReadOnlyFiles="true"
+				Retries="3"
+				RetryDelayMilliseconds="300"/>
+		<Message Text="CustomSetting files copied!" Importance="High" />
+	</Target>
+
+	<Target Name="CopyOutputFilesToPluginFolder" AfterTargets="CopyAssemblyAfterBuild;CopyLocalizationFilesAfterBuild;CopyAssetsFilesAfterBuild;CopyCustomSettingFilesAfterBuild" Condition="$(CopyBuildToPluginFolder) == 'true'">
+		<Message Text="Copying Output to Plugins Folder..." />
+		<MakeDir Directories="$(PluginsFolder)\$(AssemblyName)" Condition="!Exists('$(PluginsFolder)\$(AssemblyName)')"  />
+		<ItemGroup>
+			<OutputFilesToCopy Include="$(PluginOutputPath)\**\*.*" />
+		</ItemGroup>
+		<Copy
+				SourceFiles="@(OutputFilesToCopy)"
+				DestinationFolder="$(PluginsFolder)\$(AssemblyName)\%(RecursiveDir)"
+				SkipUnchangedFiles="true"
+				OverwriteReadOnlyFiles="true"
+				Retries="3"
+				RetryDelayMilliseconds="300"/>
+
+		<Message Text="Output has been copied to Plugins Folder!" Importance="High"/>
+	</Target>
+
+</Project>

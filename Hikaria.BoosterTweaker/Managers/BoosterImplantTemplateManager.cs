@@ -16,7 +16,7 @@ public static class BoosterImplantTemplateManager
     public static bool EnableCustomPerfectBooster { get; set; } = false;
     public static bool EnableCustomBooster { get; set; } = false;
 
-    public static CustomSettings<Dictionary<BoosterImplantCategory, List<bBoosterImplantTemplate>>> BoosterImplantTemplatesLookup { get; set; } = new("BoosterImplantTemplatesLookup", new()
+    public static CustomSetting<Dictionary<BoosterImplantCategory, List<bBoosterImplantTemplate>>> BoosterImplantTemplatesLookup { get; set; } = new("BoosterImplantTemplatesLookup", new()
     {
         { BoosterImplantCategory.Muted, new() },
         { BoosterImplantCategory.Bold, new() },

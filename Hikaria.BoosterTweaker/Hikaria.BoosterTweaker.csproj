@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<IsPublishable>False</IsPublishable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Platforms>AnyCPU;x64</Platforms>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<CustomSettingFileDir>../Settings/</CustomSettingFileDir>
+		<LocalizationFileDir>../Localization/</LocalizationFileDir>
+		<CopyBuildToPluginFolder>true</CopyBuildToPluginFolder>
+		<PluginOutputPath>../output/$(AssemblyName)/plugins/</PluginOutputPath>
+	</PropertyGroup>
+
+	<Import Project="../Dependencies.props" />
+
+</Project>

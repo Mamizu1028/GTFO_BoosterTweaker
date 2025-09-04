@@ -3,7 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hikaria.BoosterTweaker", "Hikaria.BoosterTweaker.csproj", "{862BC865-F4C8-4CC1-B27E-BF9FCD98A3A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hikaria.BoosterTweaker", "Hikaria.BoosterTweaker\Hikaria.BoosterTweaker.csproj", "{862BC865-F4C8-4CC1-B27E-BF9FCD98A3A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Dependencies.props = Dependencies.props
+		GameFolder.props = GameFolder.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localization", "{6A67EE1B-50A1-4EF5-8409-474B6835F8C9}"
+	ProjectSection(SolutionItems) = preProject
+		Localization\CustomBooster_Localization.json = Localization\CustomBooster_Localization.json
+		Localization\PerfectBooster_Localization.json = Localization\PerfectBooster_Localization.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{2B5B5DE6-5892-48B0-809F-E62936C12A86}"
+	ProjectSection(SolutionItems) = preProject
+		Settings\BoosterImplantTemplatesLookup.json = Settings\BoosterImplantTemplatesLookup.json
+		Settings\CustomBoosterImplants.json = Settings\CustomBoosterImplants.json
+		Settings\CustomPerfectBoosterImplants.json = Settings\CustomPerfectBoosterImplants.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
