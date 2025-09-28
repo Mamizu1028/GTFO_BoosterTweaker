@@ -26,7 +26,7 @@ public class CustomBooster : Feature
 
     public override bool RequiresRestart => true;
 
-    public override Type[] LocalizationExternalTypes => new Type[] { typeof(BoosterImplantCategory), typeof(AgentModifier), typeof(BoosterCondition) };
+    public override Type[] ExternalLocalizedTypes => new Type[] { typeof(BoosterImplantCategory), typeof(AgentModifier), typeof(BoosterCondition) };
 
     public class CustomBoosterSetting
     {

@@ -1,6 +1,6 @@
-{
+﻿{
   "Internal": {
-    "FeatureSettingsTexts": {
+    "FeatureSettingTexts": {
       "Hikaria.BoosterTweaker.Features.PerfectBooster.Name": {
         "FName": {
           "English": "Perfect Booster",
@@ -444,12 +444,12 @@
         }
       }
     },
-    "FeatureSettingsEnumTexts": {},
-    "ExtraTexts": []
+    "EnumTexts": {},
+    "GenericTexts": {}
   },
   "External": {
-    "ExternalFeatureSettingsTexts": {},
-    "ExternalEnumTexts": {
+    "FeatureSettingTexts": {},
+    "EnumTexts": {
       "BoosterImplantCategory": {
         "English": {
           "Muted": "Muted",

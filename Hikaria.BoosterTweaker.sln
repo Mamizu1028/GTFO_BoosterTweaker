@@ -14,9 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Localization", "Localization", "{6A67EE1B-50A1-4EF5-8409-474B6835F8C9}"
 	ProjectSection(SolutionItems) = preProject
-		Localization\CustomBooster_Localization.json = Localization\CustomBooster_Localization.json
-		Localization\PerfectBooster_Localization.json = Localization\PerfectBooster_Localization.json
-		Localization\_Hikaria.BoosterTweaker_ModuleLocalization.json = Localization\_Hikaria.BoosterTweaker_ModuleLocalization.json
+		Localization\Feature_CustomBooster_Localization.json = Localization\Feature_CustomBooster_Localization.json
+		Localization\Feature_PerfectBooster_Localization.json = Localization\Feature_PerfectBooster_Localization.json
+		Localization\Module_Hikaria.BoosterTweaker_Localization.json = Localization\Module_Hikaria.BoosterTweaker_Localization.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{2B5B5DE6-5892-48B0-809F-E62936C12A86}"
@@ -24,6 +24,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{2B
 		Settings\BoosterImplantTemplatesLookup.json = Settings\BoosterImplantTemplatesLookup.json
 		Settings\CustomBoosterImplants.json = Settings\CustomBoosterImplants.json
 		Settings\CustomPerfectBoosterImplants.json = Settings\CustomPerfectBoosterImplants.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Definitions", "Definitions", "{77848111-9EBA-4000-B5D7-3A8C780D0DF3}"
+	ProjectSection(SolutionItems) = preProject
+		Definitions\Module_Hikaria.BoosterTweaker_Group_Definition.json = Definitions\Module_Hikaria.BoosterTweaker_Group_Definition.json
 	EndProjectSection
 EndProject
 Global

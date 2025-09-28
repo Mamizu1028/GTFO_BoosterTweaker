@@ -8,6 +8,7 @@ using TheArchive.Interfaces;
 
 namespace Hikaria.BoosterTweaker;
 
+[ArchiveIncompatibility(CUSTOMBOOSTERS_GUID)]
 [ArchiveDependency(CoreGlobal.GUID)]
 [ArchiveModule(PluginInfo.GUID, PluginInfo.NAME, PluginInfo.VERSION)]
 public class EntryPoint : IArchiveModule
@@ -22,5 +23,7 @@ public class EntryPoint : IArchiveModule
 
     public ILocalizationService LocalizationService { get; set; }
     public IArchiveLogger Logger { get; set; }
+
+    private const string CUSTOMBOOSTERS_GUID = "Endskill.CustomBoosters";
 }
 

@@ -11,6 +11,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
+		<DefinitionFileDir>../Definitions/</DefinitionFileDir>
 		<CustomSettingFileDir>../Settings/</CustomSettingFileDir>
 		<LocalizationFileDir>../Localization/</LocalizationFileDir>
 		<CopyBuildToPluginFolder>true</CopyBuildToPluginFolder>

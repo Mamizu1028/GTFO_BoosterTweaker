@@ -1,6 +1,6 @@
-{
+﻿{
   "Internal": {
-    "FeatureSettingsTexts": {
+    "FeatureSettingTexts": {
       "Hikaria.BoosterTweaker.Features.CustomBooster.Name": {
         "FName": {
           "English": "Custom Booster",
@@ -442,7 +442,7 @@
         }
       }
     },
-    "FeatureSettingsEnumTexts": {
+    "EnumTexts": {
       "Hikaria.BoosterTweaker.Features.CustomBooster+ModifyType": {
         "English": {
           "Add": "Add",
@@ -547,11 +547,11 @@
         }
       }
     },
-    "ExtraTexts": []
+    "GenericTexts": {}
   },
   "External": {
-    "ExternalFeatureSettingsTexts": {},
-    "ExternalEnumTexts": {
+    "FeatureSettingTexts": {},
+    "EnumTexts": {
       "BoosterImplantCategory": {
         "English": {
           "Muted": "Muted",
