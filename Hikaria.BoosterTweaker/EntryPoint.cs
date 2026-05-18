@@ -1,6 +1,5 @@
 ﻿using Hikaria.BoosterTweaker.Detours;
 using Hikaria.Core;
-using Hikaria.Core.Utility;
 using TheArchive.Core;
 using TheArchive.Core.Attributes;
 using TheArchive.Core.Localization;
@@ -16,10 +15,8 @@ public class EntryPoint : IArchiveModule
     public void Init()
     {
         Logs.Setup(Logger);
-        EasyDetour.CreateAndApply<PersistentInventoryManager__UpdateBoosterImplants__NativeDetour>(out s_detour);
+        PersistentInventoryManager_Hooks.ApplyAll();
     }
-
-    private static IEasyDetour s_detour;
 
     public ILocalizationService LocalizationService { get; set; }
     public IArchiveLogger Logger { get; set; }

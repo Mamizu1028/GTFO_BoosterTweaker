@@ -58,7 +58,7 @@ public static class CustomPerfectBoosterImplantManager
                 if (template == null || template.BoosterImplantID == 0
                     || CustomPerfectBoosterImplant.ConditionGroupIndex >= template.ConditionGroups.Count
                     || CustomPerfectBoosterImplant.EffectGroupIndex >= template.EffectGroups.Count
-                    || (CustomPerfectBoosterImplant.ConditionGroupIndex <= -1)
+                    || CustomPerfectBoosterImplant.ConditionGroupIndex <= -1
                     || CustomPerfectBoosterImplant.EffectGroupIndex <= -1)
                 {
                     continue;

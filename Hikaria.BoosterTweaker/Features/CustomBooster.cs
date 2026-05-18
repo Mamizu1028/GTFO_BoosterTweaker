@@ -30,9 +30,6 @@ public class CustomBooster : Feature
 
     public class CustomBoosterSetting
     {
-        [FSDisplayName("正面效果倍率")]
-        public float BoosterPositiveEffectMultiplier { get => BoosterImplantTemplateManager.BoosterPositiveEffectMultiplier; set => BoosterImplantTemplateManager.BoosterPositiveEffectMultiplier = value; }
-
         [FSDisplayName("禁用条件")]
         public bool DisableBoosterConditions { get => BoosterImplantTemplateManager.DisableBoosterConditions; set => BoosterImplantTemplateManager.DisableBoosterConditions = value; }
 

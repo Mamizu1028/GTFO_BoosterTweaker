@@ -39,6 +39,11 @@
 		<Reference Include="$(PluginsFolder)/**/Hikaria.QC.dll" Private="false" />
 	</ItemGroup>
 
+	<!-- Source Generator Dependencies -->
+	<ItemGroup>
+		<Analyzer Include="$(PluginsFolder)/**/Hikaria.Core.SourceGenerators.dll"/>
+	</ItemGroup>
+
 	<!-- MSBuild Actions -->
 	<Target Name="CopyAssemblyAfterBuild" AfterTargets="Build" Condition="'$(PluginOutputPath)' != ''">
 		<MakeDir Directories="$(PluginOutputPath)" Condition="!Exists('$(PluginOutputPath)')"  />
